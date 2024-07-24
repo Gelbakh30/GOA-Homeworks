@@ -1,0 +1,48 @@
+@import url(index.html);
+
+ .img{
+    display: grid;
+    place-items: center;
+ }
+
+ .black{
+    position: absolute;
+    left: 42%;
+    top: 26%; 
+    color: blue;
+ }
+
+ .text{
+    display: grid;
+    place-items: center;
+ }
+
+ .white{
+    display: grid;
+    place-items: center;
+    color: grey;
+ }
+
+ .purple{
+    position:absolute;
+    color: white;
+    left: 42%;
+    background-color: blue;
+    border-radius: 20px / 20px;
+    width: 180px;
+    height: 20px;
+    padding: 23px;
+ }
+
+ .meh{
+    position: absolute;
+    left: 47%;
+    top: 80%;
+    
+ }
+
+ .attribution{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+ }

@@ -1,0 +1,28 @@
+
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #746868;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #eee;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+   text-decoration: underline;
+  }
+
