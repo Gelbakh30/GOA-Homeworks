@@ -1,0 +1,147 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .butt :hover{
+    background-color: white
+    color(srgb rgb(2, 1, 1))
+  }
+
+
+
+  .navbar-toggler-icon {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: transform 0.5s;
+  }
+  
+  .navbar-toggler-icon:nth-child(2) {
+    width: 15px;
+  }
+  
+  .navbar-toggler-icon:nth-child(3) {
+    width: 10px;
+  }
+
+  .butt{
+    background-color: black;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 1300px) {
+    header {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    header h1 {
+        font-size: 35px;
+    }
+
+    header a, header button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        padding: 30px 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation-name: firstanimation;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+
+    animation: firstanimation 5s infinite 2s ease reverse;
+
+}
+
+
+@keyframes firstanimation {
+    0% {
+        background-color: yellow;
+        width: 150;
+    }
+
+    20% {
+        background-color: green;
+        width: 400px;
+    }
+
+    40% {
+       background-color: blue;
+       width: 60px;
+    }
+
+    60% {
+        background-color: black;
+        width: 150px;
+    }
+
+    80% {
+        background-color: blueviolet;
+        width: 500px;
+    }
+
+    100% {
+        background-color: yellow;
+        width: 200px;
+    }
+}

@@ -1,0 +1,43 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+
+   
+
+    animation: firstanimation 7s infinite 4s ease reverse;
+
+}
+
+
+@keyframes firstanimation {
+    0% {
+        background-color: green;
+        width: 150;
+    }
+
+    20% {
+        background-color: red;
+        width: 400px;
+    }
+
+    40% {
+       background-color: purple;
+       width: 60px;
+    }
+
+    60% {
+        background-color: aqua;
+        width: 150px;
+    }
+
+    80% {
+        background-color: orange;
+        width: 500px;
+    }
+
+    100% {
+        background-color: yellow;
+        width: 200px;
+    }
+}
